@@ -1,0 +1,49 @@
+{
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1",
+    
+    "baseOrigin": "http://www3.hilton.com/en_US/hi/search/findhotels/results.htm?",
+    "urlParams": {
+        "query": "shenzhen",
+        "arrivalDate": "2017-10-02",
+        "departureDate": "2017-10-05",
+        "numberOfRooms": "1",
+        "hhonorsRate": "on",
+        "searchType": "ALL",
+        "altCorporateIdEditable": false
+    },
+    "暂时用不到的字段": {
+        "numberOfAdults[0]": "1",
+        "numberOfChildren[0]": "0",
+        "numberOfAdults[1]": "1",
+        "numberOfChildren[1]": "0",
+        "numberOfAdults[2]": "1",
+        "numberOfChildren[2]": "0",
+        "numberOfAdults[3]": "1",
+        "numberOfChildren[3]": "0",
+
+        "altCorporateId": "",
+        "latitude": "",
+        "longitude": "",
+        "promoCode": "",
+        "groupCode": "",
+        "corporateId": "",
+        "altCorporateName": ""
+    },
+
+    "moreDataOrigin": "http://www3.hilton.com/en_US/hi/search/findhotels/endlessScrollPaginationAjax.htm?",
+    "moreDataParams": {
+        "query": "china",
+        "arrivalDate": "2017-10-02",
+        "departureDate": "2017-10-05",
+        "numberOfRooms": "1",
+        "hhonorsRate": true,
+        "flexibleDates": false,
+        "searchType": "ALL",
+        "altCorporateIdEditable": false,
+        "pageIndex": "2",
+        "pageResultSize": "20",
+        "sortOrder": "DISTANCE",
+        "view": "List",
+        "radius": "40"
+    }
+}

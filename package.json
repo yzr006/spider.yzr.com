@@ -1,0 +1,25 @@
+{
+  "name": "spider.yzr.com",
+  "version": "1.0.0",
+  "description": "spider",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "spider"
+  ],
+  "author": "terry",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "phantom": "^4.0.5"
+  }
+}
