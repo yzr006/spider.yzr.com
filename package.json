@@ -7,11 +7,12 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "none"
+    "test": "none",
+    "dev_gzbank": "NODE_ENV=development node projects/gzbank.blacklist.com/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "none"
+    "url": "http://www.yzr.space"
   },
   "keywords": [
     "spider"
@@ -20,6 +21,9 @@
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "phantom": "^4.0.5"
+    "mysql": "^2.15.0",
+    "phantom": "^4.0.5",
+    "puppeteer": "^0.13.0",
+    "sequelize": "^4.22.7"
   }
 }
