@@ -9,10 +9,10 @@ module.exports = {
     },
     production: {
         connectionLimit : 20,
-        host: '65.49.203.30',
+        host: 'localhost',
         port: '3306',
         user: 'admin',
         password: 'admin',
-        database: 'spider_yzr',
+        database: 'yzr_spider',
     },
 }
