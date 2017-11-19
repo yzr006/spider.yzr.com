@@ -37,7 +37,7 @@ const dom2json = function(domStr) {
 }
 
 const start = async function() {
-    const browser = await puppeteer.launch()
+    const browser = await puppeteer.launch({args: ['--no-sandbox']})
     const page = await browser.newPage()
     // await page.goto('http://r.creditcard.gzcb.com.cn/zzshua/tb.html')
     await page.goto('http://r.creditcard.gzcb.com.cn/zzshua/tb.html', {"waitUntil" : "networkidle2"});
