@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "none",
-    "dev_gzbank": "NODE_ENV=development node projects/gzbank.blacklist.com/index.js"
+    "dev_gzbank": "NODE_ENV=development node projects/gzbank.blacklist.com/index.js",
+    "pro_gzbank": "NODE_ENV=production node projects/gzbank.blacklist.com/index.js"
   },
   "repository": {
     "type": "git",
