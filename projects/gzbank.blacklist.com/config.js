@@ -12,7 +12,7 @@ module.exports = {
         host: 'localhost',
         port: '3306',
         user: 'admin',
-        password: 'admin',
+        password: 'Admin001+-*/',
         database: 'yzr_spider',
     },
 }
