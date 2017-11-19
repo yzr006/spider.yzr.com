@@ -15,7 +15,7 @@ function myQuery(sql, params) {
     return new Promise((resolve, reject) => {
         connection.query(sql, params || '', (error, result, field) => {
             if (error) {
-                reject(error.message)
+                reject(error)
             }
             resolve({result, field})
         })
@@ -25,7 +25,7 @@ function myQuery(sql, params) {
 function clearTable(){
     return new Promise(async (resolve, reject) => {
         const rst = await myQuery('delete from gzbank_blacklist').catch(e => {
-            reject(e.message)
+            reject(e)
         })
         resolve(rst)
     })
