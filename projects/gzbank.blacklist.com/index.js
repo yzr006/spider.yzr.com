@@ -48,9 +48,7 @@ const start = async function() {
     // })
     const jsonData = await page.evaluate(() => {
         let arrTemp = arr0.concat(arr)
-        let arrRst = arrTemp.map(ele => {
-            return [ele]
-        })
+        let arrRst = arrTemp.map(ele => [ele])
         return arrRst
     })
     const rst = await db.saveData(jsonData).catch(e => {

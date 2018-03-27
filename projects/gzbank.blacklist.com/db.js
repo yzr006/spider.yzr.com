@@ -1,6 +1,6 @@
 const mysql = require('mysql')
 // process.env.NODE_ENV = 'development'
-let config = require('./config.js')[process.env.NODE_ENV]
+let config = require('./../../common/config.js')[process.env.NODE_ENV]
 
 console.log('ENV: ', process.env.NODE_ENV)
 
